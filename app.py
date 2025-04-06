@@ -10,7 +10,7 @@ SCOPES = ['https://www.googleapis.com/auth/spreadsheets',
           'https://www.googleapis.com/auth/drive']
 
 creds = Credentials.from_service_account_file(
-    'service_account.JSON',
+    'service_account.json',
     scopes=SCOPES
 )
 
