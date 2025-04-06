@@ -10,7 +10,7 @@ SCOPES = ['https://www.googleapis.com/auth/spreadsheets',
           'https://www.googleapis.com/auth/drive']
 
 creds = Credentials.from_service_account_file(
-    'my-project-ktg-kovetes-service.json.json',
+    'my-project-ktg-kovetes-service.json',
     scopes=SCOPES
 )
 
